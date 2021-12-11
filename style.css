@@ -1,0 +1,77 @@
+  body{
+    background-color: black;
+    color: white;
+  }
+
+  #nav{
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 8px;
+  }
+
+  .navlink{
+    border: solid #ffd700 2px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family: "Montserrat";
+    padding: 2px 5px 2px 5px;
+  }
+
+  #logo{
+    width: 8%;
+    position: fixed;
+    top: 15px;
+    left: 75px;
+  }
+
+  #hero h1{
+    font-family: "Montserrat";
+    font-size: 2em;
+    margin-left: 16vw;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Montserrat";
+  }
+
+  #heroimg {
+    width: 66%;
+    position: relative;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    border: solid white 2px;
+  }
+
+  #about{
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    padding: 8px;
+    border: solid #ffd700 2px;
+  }
+
+  .photography{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pic{
+    position: relative;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    padding-bottom: 25px;
+    max-width: 66%;
+  }
+
+  .videos{
+    margin-left: 16vw;
+    margin-right: 16vw;
+    margin-top: 3vh;
+  }
